@@ -1,0 +1,33 @@
+$main-font: 'Mulish';
+$main-font-color: #7D7987;
+$headers-font: #000000;
+
+@mixin  buttons {
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    background-color: #FFFFFF;
+    color: rgba(69, 143, 246, 1);
+    transition: background-color, color .5s;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;;
+    mix-blend-mode: normal;
+    
+    &:hover {
+        background-color: #458FF6;
+        color: #fff;
+    }
+}
+
+@mixin headers {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: $headers-font;
+    mix-blend-mode: normal;
+}
+
+@mixin footer-font {
+    font-size: 16px;
+    line-height: 28px;
+}
