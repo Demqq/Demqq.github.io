@@ -34,7 +34,6 @@ button {
 }
 
 .container {
-    width: auto;
     margin: 0 auto;
 }
 
@@ -42,6 +41,7 @@ button {
     height: 100vh;
     background-image: url(../img/navigation/bg.svg);
     background-repeat: no-repeat;
+    width: auto;
     background-size: cover;
     padding: 36px 0 200px 0;
 }
