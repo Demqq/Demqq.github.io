@@ -6,6 +6,7 @@ let submitInput = document.querySelector('#submit');
 let timeInput = document.querySelector('#time');
 
 submitInput.addEventListener('click', function(){
+    e.preventDefault();
     if (emailInput.value.indexOf("@") == -1 ) {
         alert("Please, write down you Name or correct E-mail address")
     } else if (nameInput.value.length === 0) {
