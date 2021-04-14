@@ -210,7 +210,8 @@ button {
             margin-right: 30px;
             background-color: $main-font-color;
             padding: 35px 10px 35px 40px;
-            height: 290px;
+            width: 220px;
+            // height: 290px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -371,11 +372,7 @@ button {
                     letter-spacing: 0.2px;
                     color: $third-font-color;
                 }
-
-
             }
-
-
         }
     }
 }
