@@ -15,11 +15,10 @@ a {
 .container {
   width: 1440px;
   margin: 0 auto;
-  position: relative;
+  padding: 0 20px 0;
 }
 
 .gradient-container {
-  position: absolute;
   background: conic-gradient(from 180deg at 50% 50%, rgba(0, 163, 255, 0.67) 0deg, rgba(5, 255, 0, 0.31) 360deg);
   filter: blur(350px);
   width: 720px;
@@ -29,7 +28,6 @@ a {
 }
 
 .header {
-  position: relative;
   color: #121212;
   padding: 333px 0 533px 0;
 }
@@ -39,8 +37,8 @@ a {
 }
 
 h1 {
-  font-size: 48px;
   font-weight: normal;
+  font-size: 48px;
   top: 333px;
   left: 216px;
   line-height: 64px;
