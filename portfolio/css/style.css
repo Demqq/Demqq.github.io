@@ -34,6 +34,10 @@ a {
   padding: 333px 0 533px 0;
 }
 
+.header__scroll {
+  display: none;
+}
+
 h1 {
   font-size: 48px;
   font-weight: normal;
@@ -68,14 +72,6 @@ h1 span {
 
 .about__inner:last-child {
   margin-bottom: 0;
-}
-
-.second-gradient {
-  background: conic-gradient(from 180deg at 50% 50%, #FFA800 0deg, #FF01B7 360deg);
-  opacity: 0.26;
-  filter: blur(350px);
-  position: absolute;
-  top: 10px;
 }
 
 h2 {

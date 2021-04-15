@@ -1,3 +1,128 @@
-@media (max-width: 375px){
-    
+@import 'vars';
+
+@media (max-width: 375px) {
+    .container {
+        // width: 375px;
+        margin: 0 auto;
+        padding: 0 10px 0 10px;
+        position: relative;
+    }
+
+    .gradient-container {
+        position: absolute;
+        background: linear-gradient(139.17deg, rgba(0, 163, 255, 0.518) -10.86%, rgba(5, 255, 0, 0.2294) 101.03%);
+        filter: blur(200px);
+        width: 320px;
+        height: 400px;
+        top: -100px;
+        left: 18px;
+    }
+
+    .header {
+        position: relative;
+        padding: 312px 0 272px 0;
+
+        &__scroll {
+            margin-top: 265px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    h1 {
+
+        font-size: 24px;
+        line-height: 35px;
+        top: 312px;
+        left: 17.74px;
+        line-height: 64px;
+        // text-align: center;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .about {
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__inner {
+            padding: 25px 23px 25px 23px;
+            width: 342.9px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 23px rgba(27, 27, 27, 0.1);
+            border-radius: 23px;
+            margin-bottom: 30px;
+            font-size: 14px;
+            line-height: 23px;
+            color: $second-font-color;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+    h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 64px;
+        color: $main-font-color;
+        margin-bottom: 70px;
+    }
+
+    .skills {
+        padding: 85px 0;
+        display: grid;
+        justify-content: center;
+
+        h3 {
+            font-size: 24px;
+            line-height: 64px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        &__item {
+            margin-right: 75px;
+        }
+    }
+
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 153px;
+
+        h3 {
+            margin-bottom: 100px;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 64px;
+            color: $main-font-color;
+        }
+
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &--img {
+                position: relative;
+            }
+
+
+        }
+    }
+
+    .footer {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
 }
