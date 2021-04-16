@@ -1,7 +1,7 @@
 @media (max-width: 375px) {
   .container {
-    width: 375px;
-    margin: 0 auto;
+    width: 345px;
+    padding: 0 15px 0 15px;
   }
   .header {
     position: relative;
@@ -19,9 +19,6 @@
     left: 17.74px;
     line-height: 64px;
   }
-  h1 span {
-    font-weight: bold;
-  }
   .about {
     padding-bottom: 80px;
     display: flex;
@@ -29,7 +26,6 @@
     align-items: center;
   }
   .about__inner {
-    padding: 25px 23px 25px 23px;
     width: 342.9px;
     background: #FFFFFF;
     box-shadow: 0px 4px 23px rgba(27, 27, 27, 0.1);
@@ -52,7 +48,9 @@
   }
   .skills {
     padding: 85px 0;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .skills h3 {
     font-size: 24px;
@@ -61,7 +59,7 @@
     margin-bottom: 20px;
   }
   .skills__item {
-    margin-right: 75px;
+    margin-right: 0;
   }
   .works {
     display: flex;
