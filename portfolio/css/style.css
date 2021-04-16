@@ -23,21 +23,31 @@ a {
   padding: 333px 0 533px 0;
 }
 
+.header__inner {
+  width: 862px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__inner--contain {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .header__scroll {
   display: none;
 }
 
 h1 {
-  font-weight: normal;
-  font-size: 48px;
-  top: 333px;
-  left: 216px;
-  line-height: 64px;
-  text-align: center;
-}
-
-h1 span {
   font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 .about {

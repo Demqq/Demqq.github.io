@@ -25,22 +25,32 @@ a {
     color: $main-font-color;
     padding: 333px 0 533px 0;
 
+    &__inner {
+        width: 862px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--contain {
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
     &__scroll {
         display: none;
     }
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 48px;
-    top: 333px;
-    left: 216px;
-    line-height: 64px;
-    text-align: center;
-
-    span {
-        font-weight: bold;
-    }
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 40px;
 }
 
 .about {
@@ -169,7 +179,7 @@ h2 {
 
         &--img {
             position: relative;
-        
+
             .works-images {
                 width: 367.26px;
                 height: 367.26px;
@@ -233,7 +243,7 @@ h2 {
     }
 }
 
-.footer{
+.footer {
     padding: 50px;
     display: flex;
     justify-content: center;
