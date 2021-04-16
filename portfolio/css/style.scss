@@ -23,7 +23,7 @@ a {
 
 .header {
     color: $main-font-color;
-    padding: 333px 0 533px 0;
+    padding: 233px 0 233px 0;
 
     &__inner {
         width: 862px;
@@ -37,6 +37,16 @@ a {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+
+            a{
+                padding: 10px 25px;
+                background: #485BFF;
+                border-radius: 1000px;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
         }
     }
 
@@ -54,10 +64,11 @@ h1 {
 }
 
 .about {
-    padding-bottom: 100px;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #EDF7FA;
 
     &__inner {
         padding: 38px 25px 38px 50px;

@@ -20,7 +20,7 @@ a {
 
 .header {
   color: #121212;
-  padding: 333px 0 533px 0;
+  padding: 233px 0 233px 0;
 }
 
 .header__inner {
@@ -38,6 +38,16 @@ a {
   align-items: flex-start;
 }
 
+.header__inner--contain a {
+  padding: 10px 25px;
+  background: #485BFF;
+  border-radius: 1000px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
 .header__scroll {
   display: none;
 }
@@ -51,10 +61,11 @@ h1 {
 }
 
 .about {
-  padding-bottom: 100px;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #EDF7FA;
 }
 
 .about__inner {
